@@ -1,0 +1,15 @@
+<html>
+<head>
+  <script>
+   $('.my_selector').click(function(){
+   $.get('http://MY_SERVER_ADDR:3000/data', {}, function(data){
+        console.log(data)
+   });
+});
+  </script>
+</head>
+<body>
+  <div id="interupt"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</body>
+</html>
