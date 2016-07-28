@@ -3,7 +3,7 @@
   <script>
   $('.my_selector').click(function(){
    $.get('https://music-interupter.herokuapp.com/session', {}, function(data){
-        $('#sessions').html(data);
+        $(#sessions).html(data);
    });
   });
   </script>
